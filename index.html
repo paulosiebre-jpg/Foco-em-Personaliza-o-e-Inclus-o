@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ensino Sob Medida - IA na Educação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Ensino Sob Medida</h1>
+            <p>Como a IA Auxilia na Personalização do Aprendizado e na Inclusão Escolar</p>
+        </div>
+    </header>
+
+    <section class="intro container">
+        <h2>Sobre o Projeto</h2>
+        <p>Este projeto investiga como a Inteligência Artificial (IA) atua como uma ferramenta pedagógica inclusiva, adaptando as salas de aula para os ritmos e necessidades de cada estudante.</p>
+    </section>
+
+    <main class="container">
+        <div class="tabs">
+            <button class="tab-btn active" onclick="openTab(event, 'personalizacao')">Personalização</button>
+            <button class="tab-btn" onclick="openTab(event, 'inclusao')">Inclusão Escolar</button>
+        </div>
+
+        <div id="personalizacao" class="tab-content active">
+            <h3>Trilhas de Aprendizagem Dinâmicas</h3>
+            <p>A IA analisa o desempenho do estudante em tempo real, gerando caminhos de estudo específicos. Se um aluno demonstra dificuldade em frações, o sistema oferece mais exercícios visuais antes de avançar para álgebra.</p>
+            <ul>
+                <li>⚙️ Ritmo adaptável ao estudante.</li>
+                <li>📊 Feedback instantâneo para professores.</li>
+                <li>🎯 Foco nas lacunas de aprendizado.</li>
+            </ul>
+        </div>
+
+        <div id="inclusao" class="tab-content">
+            <h3>Acessibilidade Inteligente</h3>
+            <p>A tecnologia quebra barreiras para alunos com necessidades educacionais especiais, tornando os materiais didáticos plurais e acessíveis para todos.</p>
+            <ul>
+                <li>👁️ Adaptação para baixa visão e dislexia.</li>
+                <li>🎧 Transcrição de áudio e tradução automática.</li>
+                <li>🧠 Recursos simplificados para TDAH e autismo.</li>
+            </ul>
+        </div>
+
+        <section class="demo-box">
+            <h3>Simulador de Acessibilidade por IA</h3>
+            <p id="demo-text">Este é um exemplo de texto didático. A IA pode modificar este conteúdo instantaneamente para torná-lo mais legível para alunos com diferentes necessidades.</p>
+            
+            <div class="controls">
+                <button onclick="changeTextMode('normal')">Texto Padrão</button>
+                <button onclick="changeTextMode('dislexia')">Modo Dislexia (Fonte Especial)</button>
+                <button onclick="changeTextMode('foco')">Modo Alto Contraste (Foco)</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Projeto Ensino Sob Medida. Desenvolvido para uma educação mais inclusiva.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
